@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+    135deg,
+    rgba(40, 156, 167, 1),
+    rgba(208, 115, 186, 1)
+  );
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.adivina1 {
+  margin: 25px;
+  width: 420px;
+}
+
+.adivina1 input {
+  padding: 5px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #232946;
+  border: 2px solid #eebbc3;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.form h2 {
+  margin: 15px;
+}
+
+.input {
+  display: flex;
+  width: 350px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.label {
+  margin: 0 15px 0 0;
+}
+.input label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.inputext {
+  padding: 5px;
+  border-radius: 5px 0 0 5px;
+}
+
+.submit {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 0 5px 5px 0;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.submit:hover {
+  background-color: navajowhite;
+}
+
+.pista {
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.reset {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 30px;
+  background-color: darkred;
+  border-radius: 10px;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.reset:hover {
+  background-color: #a30000; /* Cambio de color de fondo al pasar el mouse */
+  transform: scale(1.05); /* Escalado del elemento al pasar el mouse */
+}
+
+.intentos {
+  padding: 15px 0;
+  text-align: center;
+}
+
+.box {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 8px;
+  margin-top: 10px;
+  width: fit-content;
+}
+
+.box.done {
+  background-color: #03fc03;
+}
+
+.red {
+  background-color: #b8c1ec;
+  color: red;
+}
+
+.orange {
+  background-color: #b8c1ec;
+  color: orange;
+}
+
+.green {
+  background-color: #b8c1ec;
+  color: greenyellow;
+}
